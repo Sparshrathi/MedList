@@ -8,8 +8,8 @@ import Home from './Screen/Home';
 
 const App =(props)=> {
   return(
-   <View>
-      <Home />
+   <View style={styles.screen}>
+      <Home/>
    </View>
   )
 }
