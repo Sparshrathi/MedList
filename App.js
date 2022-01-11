@@ -3,14 +3,13 @@ import {
   StyleSheet,
   Text,
   View,
-  SafeAreaView
 } from 'react-native';
-
+import Home from './Screen/Home';
 
 const App =(props)=> {
   return(
    <View>
-      <Text>hello</Text>
+      <Home />
    </View>
   )
 }
